@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "870059359856",
+    "firebase_url": "https://dimpl-9e857.firebaseio.com",
+    "project_id": "dimpl-9e857",
+    "storage_bucket": "dimpl-9e857.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870059359856:android:7bf6be6ce2576419",
+        "android_client_info": {
+          "package_name": "dimpl.com.dimpl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870059359856-gqmg7el4toniavbl6vrlsmccls3c4u8q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dimpl.com.dimpl",
+            "certificate_hash": "c99fa66c151c11e9ce1b862f267063688dce21ef"
+          }
+        },
+        {
+          "client_id": "870059359856-0t11ab2iee89905vduc08ed2msbpud3m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCptCHEeGdJIjqYgpxVCWPjoY4zh2AoCp4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870059359856-0t11ab2iee89905vduc08ed2msbpud3m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

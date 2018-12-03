@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        app:cardBackgroundColor="@android:color/transparent"
+        card_view:background="@android:color/transparent"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="4dp">
+
+        <LinearLayout
+            android:id="@+id/lnrSpeakerDetail"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="5">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1.5"
+                android:background="@drawable/card_view_bg">
+
+                <ImageView
+                    android:id="@+id/imgObsJury"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/placeholder" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="3.5"
+                android:gravity="center|left|top"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <dimpl.com.dimpl.customViews.TextViewCalibriBold
+                        android:id="@+id/txtObserDate"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="ABC Xyz"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+
+                </LinearLayout>
+
+                <dimpl.com.dimpl.customViews.TextViewCalibriRegular
+                    android:id="@+id/txtObsFlexStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="center|left"
+                    android:maxLines="1"
+                    android:paddingBottom="2dp"
+                    android:paddingTop="2dp"
+                    android:singleLine="true"
+                    android:text="cms school opposite, Coimbatore, Tamil Nadu, 641006"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <dimpl.com.dimpl.customViews.TextViewCalibriRegular
+                    android:id="@+id/txtObsDisplay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="center|left"
+                    android:maxLines="1"
+                    android:paddingBottom="2dp"
+                    android:paddingTop="2dp"
+                    android:singleLine="true"
+                    android:text="cms school opposite, Coimbatore, Tamil Nadu, 641006"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <LinearLayout
+                    android:id="@+id/lnrOfflineImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+
+
+                            <dimpl.com.dimpl.customViews.TextViewCalibriRegular
+                                android:id="@+id/txtObsLighting"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:ellipsize="end"
+                                android:gravity="center|left"
+                                android:maxLines="1"
+                                android:singleLine="true"
+                                android:text="2018-07-17 10:53:55 ddda"
+                                android:textColor="@color/black"
+                                android:textSize="13sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imgObsLocationIcon"
+                                android:layout_width="@dimen/dp_30"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="@dimen/dp_5"
+                                android:adjustViewBounds="true"
+                                android:src="@drawable/trans"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/imgObsStatus"
+                                android:layout_width="@dimen/dp_30"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="@dimen/dp_5"
+                                android:adjustViewBounds="true"
+                                android:src="@drawable/trans" />
+
+                            <ImageView
+                                android:id="@+id/imgObsDisplayIcon"
+                                android:layout_width="@dimen/dp_30"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="@dimen/dp_5"
+                                android:adjustViewBounds="true"
+                                android:src="@drawable/trans" />
+
+                            <ImageView
+                                android:id="@+id/imgObsLightIcon"
+                                android:layout_width="@dimen/dp_30"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="@dimen/dp_5"
+                                android:adjustViewBounds="true"
+                                android:src="@drawable/trans" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
